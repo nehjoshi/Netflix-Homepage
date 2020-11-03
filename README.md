@@ -1,2 +1,2 @@
-#Netflix Homepage
-The original Netflix homepage, created without the dynamic content
+# Netflix Homepage
+This is the original Netflix Homepage, without any of the dynamic content.

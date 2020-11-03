@@ -1,0 +1,398 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "courier";
+	font-size: 20px;
+	
+	width: 100% !important;
+
+
+}
+.main {
+	background-image: url("image.jpg");
+	height: 768px;
+	
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+#logo {
+	margin-left: 25px;
+	margin-top: -15px;
+	display: inline-block;
+	
+}
+.head_line {
+	margin-top: 20px;
+	margin-right: 100px;
+	display: inline-block;
+	float: right;
+	
+}
+.main .head_line #lang {
+
+	display: inline-block;
+	color: white;
+	font-family: "Helvetica";
+	font-size: 14.4px;
+	font-weight: bold;
+	background-color: black;
+	border: 1px solid gray;
+	border-radius: 1.5px;
+	padding: 10px;
+	
+}
+.main .head_line .login {
+	display: inline-block;
+	font-family: Helvetica;
+	margin-left: 15px;
+	font-size: 14.4px;
+	border: 1px solid #e50914;
+	border-radius: 3px;
+	background-color: #e50914;
+	padding: 10px;
+	text-decoration: none;
+	
+}
+.main .head_line .login a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.center {
+	text-align: center;
+	color: white;
+	font-family: Helvetica;
+	margin-top: 170px;
+}
+.center h1 {
+	font-size: 65px;
+}
+.center h3 {
+	font-size: 20px;
+}
+.email {
+	display: inline-block;
+	margin-left:-300px;
+	margin-top: 20px;
+	height: 60px;
+	width: 500px;
+	font-family: Helvetica;
+}
+.register {
+	border: 1px solid black;
+	font-size: 16px;
+	display: inline-block;
+	background-color: #e50914;
+	font-family: Helvetica;
+	padding: 19px;
+	letter-spacing: 1px;
+	position: absolute;
+	margin-left: 101px;
+	margin-top: -65.5px;
+	width: 350px;	
+}
+.register a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+.info-1 { 
+	position: relative;
+	background-color: black;
+	top: 0;
+	left: 0;
+	height: 450px;
+}
+.info-1 h1{
+	position: absolute;
+	top: 150px;
+	left: 200px;
+	font-family: Helvetica;
+	color: white;
+	font-size: 55px;
+}
+.info-1-p {
+	position: absolute;
+	margin-top: 225px;
+	margin-left: 200px;
+	font-size: 17px;
+	font-family: Helvetica;
+	color: white;
+	display: block;
+	letter-spacing: 1px;
+}
+
+.info-1 img {
+	float: right;
+	height: 400px;
+	margin-right: 50px;
+	margin-top: 0px;
+	background-color: black;
+}
+.info-2 {
+	position: relative;
+	background-color: black;
+	height: 450px;
+}
+.info-2 img {
+	position: absolute;
+	top: 10px;
+	left: 150px;
+	height: 400px;
+}
+
+.info-2-h {
+	position: absolute;
+	letter-spacing: 1px;
+	left: 750px;
+	font-family: Helvetica;
+	color: white;
+	font-size: 35px;
+	margin-right: 150px;
+	margin-top: 125px;
+	
+}
+
+.info-2-p {
+	position: absolute;
+	left: 600px;
+	color: white;
+	font-family: Helvetica;
+	font-size: 22px;
+	letter-spacing: 1px;
+	margin-top: 280px;
+	margin-left: 150px;
+	
+}
+
+.info-3 {
+	position: relative;
+	color: white;
+	font-family: Helvetica;
+	height: 450px;
+	background-color: black;
+}
+.info-3 h2 {
+	position: absolute;
+	top: 175px;
+	left: 140px;
+	font-size: 55px;
+	letter-spacing: 1px;
+}
+
+.info-3-p {
+	position: absolute;
+	top: 250px;
+	left: 140px;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+.info-3 img {
+	position: absolute;
+	left: 800px;
+	top: 50px;
+	height: 400px;
+}
+
+.faq {
+	position: relative;
+	height: 900px;
+	background-color: black;
+	color: white;
+	font-family: Helvetica;
+}
+.faq h1 {
+	position: absolute;
+	left: 390px;
+	top: 50px;
+	letter-spacing: 1px;
+	font-size: 50px;
+}
+.faq .q1 {
+	position: absolute;
+	font-size: 19px;
+	border: 1px solid black;
+	background-color: rgb(48,48,48);
+	text-align: left;
+	padding: 25px;
+	width: 800px;
+	top: 150px;
+	left: 325px;
+	
+}
+.faq .q2 {
+	position: absolute;
+	font-size: 19px;
+	border: 1px solid black;
+	background-color: rgb(48,48,48);
+	text-align: left;
+	padding: 25px;
+	width: 800px;
+	top: 245px;
+	left: 325px;
+	
+}
+.faq .q3 {
+	position: absolute;
+	font-size: 19px;
+	border: 1px solid black;
+	background-color: rgb(48,48,48);
+	text-align: left;
+	padding: 25px;
+	width: 800px;
+	top: 340px;
+	left: 325px;
+	
+}
+.faq .q4 {
+	position: absolute;
+	font-size: 19px;
+	border: 1px solid black;
+	background-color: rgb(48,48,48);
+	text-align: left;
+	padding: 25px;
+	width: 800px;
+	top: 435px;
+	left: 325px;
+	
+}
+.faq .q5 {
+	position: absolute;
+	font-size: 19px;
+	border: 1px solid black;
+	background-color: rgb(48,48,48);
+	text-align: left;
+	padding: 25px;
+	width: 800px;
+	top: 530px;
+	left: 325px;
+	
+}
+.faq .ready_to_watch {
+	position: absolute;
+	top: 680px;
+	left:420px;
+	font-size: 21px;
+}
+
+.email-2{
+	position: relative;
+	width: 500px;
+	height: 60px;
+	top: 730px;
+	left: 360px;
+}
+.get-started {
+	position: absolute;
+	top: 729px;
+	left: 864px;
+	border: 1px solid black;
+	font-size: 30px;
+	background-color: #e50914;
+	padding: 15px;
+	letter-spacing: 1px;
+	width: 225px;
+}
+.foot-sect {
+	position: relative;
+	height: 450px;
+	font-family: Helvetica;
+	color: #757575;
+	background-color: black;
+	font-size: 15px;
+}
+.foot-sect a:hover {
+	text-decoration: underline;
+}
+.num {
+	position: absolute;
+	letter-spacing: 1px;
+	top: 80px;
+	left: 300px;
+}
+.large-table {
+	position: relative;
+	border: 1px solid black
+	height: 300px;
+	top: 130px;
+	left: 280px;
+	width: 850px;
+}
+.FAQ-link {
+	position: absolute;
+	left: 20px;
+}
+.help-center-link {
+	position: absolute;
+	left: 225px;
+}
+.account-link {
+	position: absolute;
+	left: 480px;
+}
+.media-center-link {
+	position: absolute;
+	left: 720px;
+}
+.investor-link {
+	position: absolute;
+	left: 20px;
+	top: 40px;
+}
+.jobs-link {
+	position: absolute;
+	left: 225px;
+	top: 40px;
+}
+.ways {
+	position: absolute;
+	left: 480px;
+	top: 40px;
+}
+.terms {
+	position: absolute;
+	left: 720px;
+	top: 40px;
+}
+.privacy {
+	position: absolute;
+	left: 20px;
+	top: 80px;
+}
+.cookie {
+	position: absolute;
+	left: 225px;
+	top: 80px;
+}
+.corp {
+	position: absolute;
+	left: 480px;
+	top: 80px;
+}
+.contact {
+	position: absolute;
+	left: 720px;
+	top: 80px;
+}
+.speed {
+	position: absolute;
+	left: 20px;
+	top: 120px;
+}
+.legal {
+	position: absolute;
+	left: 225px;
+	top: 120px;
+}
+.originals {
+	position: absolute;
+	left: 480px;
+	top: 120px;
+}
